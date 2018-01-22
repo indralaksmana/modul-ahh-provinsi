@@ -1,0 +1,4643 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class MasterKotaSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('master_kota')->insert(
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.01',
+                'kota_nama' => 'Kab. Aceh Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.02',
+                'kota_nama' => 'Kab. Aceh Tenggara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.03',
+                'kota_nama' => 'Kab. Aceh Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.04',
+                'kota_nama' => 'Kab. Aceh Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.05',
+                'kota_nama' => 'Kab. Aceh Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.06',
+                'kota_nama' => 'Kab. Aceh Besar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.07',
+                'kota_nama' => 'Kab. Pidie',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.08',
+                'kota_nama' => 'Kab. Aceh Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.09',
+                'kota_nama' => 'Kab. Simeulue',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.10',
+                'kota_nama' => 'Kab. Aceh Singkil',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.11',
+                'kota_nama' => 'Kab. Bireuen',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.12',
+                'kota_nama' => 'Kab. Aceh Barat Daya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.13',
+                'kota_nama' => 'Kab. Gayo Lues',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.14',
+                'kota_nama' => 'Kab. Aceh Jaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.15',
+                'kota_nama' => 'Kab. Nagan Raya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.16',
+                'kota_nama' => 'Kab. Aceh Tamiang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.17',
+                'kota_nama' => 'Kab. Bener Meriah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.18',
+                'kota_nama' => 'Kab. Pidie Jaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.71',
+                'kota_nama' => 'Kota Banda Aceh',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.72',
+                'kota_nama' => 'Kota Sabang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.73',
+                'kota_nama' => 'Kota Lhokseumawe',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.74',
+                'kota_nama' => 'Kota Langsa',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '11',
+                'kota_kode' => '11.75',
+                'kota_nama' => 'Kota Subulussalam',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.01',
+                'kota_nama' => 'Kab. Tapanuli Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.02',
+                'kota_nama' => 'Kab. Tapanuli Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.03',
+                'kota_nama' => 'Kab. Tapanuli Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.04',
+                'kota_nama' => 'Kab. Nias',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.05',
+                'kota_nama' => 'Kab. Langkat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.06',
+                'kota_nama' => 'Kab. Karo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.07',
+                'kota_nama' => 'Kab. Deli Serdang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.08',
+                'kota_nama' => 'Kab. Simalungun',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.09',
+                'kota_nama' => 'Kab. Asahan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.10',
+                'kota_nama' => 'Kab. Labuhanbatu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.11',
+                'kota_nama' => 'Kab. Dairi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.12',
+                'kota_nama' => 'Kab. Toba Samosir',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.13',
+                'kota_nama' => 'Kab. Mandailing Natal',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.14',
+                'kota_nama' => 'Kab. Nias Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.15',
+                'kota_nama' => 'Kab. Pakpak Bharat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.16',
+                'kota_nama' => 'Kab. Humbang Hasundutan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.17',
+                'kota_nama' => 'Kab. Samosir',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.18',
+                'kota_nama' => 'Kab. Serdang Bedagai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.19',
+                'kota_nama' => 'Kab. Batu Bara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.20',
+                'kota_nama' => 'Kab. Padang Lawas Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.21',
+                'kota_nama' => 'Kab. Padang Lawas',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.22',
+                'kota_nama' => 'Kab. Labuhanbatu Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.23',
+                'kota_nama' => 'Kab. Labuhanbatu Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.24',
+                'kota_nama' => 'Kab. Nias Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.25',
+                'kota_nama' => 'Kab. Nias Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.71',
+                'kota_nama' => 'Kota Medan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.72',
+                'kota_nama' => 'Kota Pematang Siantar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.73',
+                'kota_nama' => 'Kota Sibolga',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.74',
+                'kota_nama' => 'Kota Tanjung Balai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.75',
+                'kota_nama' => 'Kota Binjai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.76',
+                'kota_nama' => 'Kota Tebing Tinggi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.77',
+                'kota_nama' => 'Kota Padangsidimpuan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '12',
+                'kota_kode' => '12.78',
+                'kota_nama' => 'Kota Gunungsitoli',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.01',
+                'kota_nama' => 'Kab. Pesisir Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.02',
+                'kota_nama' => 'Kab. Solok',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.03',
+                'kota_nama' => 'Kab. Sijunjung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.04',
+                'kota_nama' => 'Kab. Tanah Datar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.05',
+                'kota_nama' => 'Kab. Padang Pariaman',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.06',
+                'kota_nama' => 'Kab. Agam',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.07',
+                'kota_nama' => 'Kab. Lima Puluh Kota',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.08',
+                'kota_nama' => 'Kab. Pasaman',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.09',
+                'kota_nama' => 'Kab. Kepulauan Mentawai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.10',
+                'kota_nama' => 'Kab. Dharmasraya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.11',
+                'kota_nama' => 'Kab. Solok Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.12',
+                'kota_nama' => 'Kab. Pasaman Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.71',
+                'kota_nama' => 'Kota Padang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.72',
+                'kota_nama' => 'Kota Solok',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.73',
+                'kota_nama' => 'Kota Sawahlunto',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.74',
+                'kota_nama' => 'Kota Padang Panjang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.75',
+                'kota_nama' => 'Kota Bukittinggi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.76',
+                'kota_nama' => 'Kota Payakumbuh',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '13',
+                'kota_kode' => '13.77',
+                'kota_nama' => 'Kota Pariaman',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.01',
+                'kota_nama' => 'Kab. Kampar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.02',
+                'kota_nama' => 'Kab. Indragiri Hulu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.03',
+                'kota_nama' => 'Kab. Bengkalis',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.04',
+                'kota_nama' => 'Kab. Indragiri Hilir',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.05',
+                'kota_nama' => 'Kab. Pelalawan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.06',
+                'kota_nama' => 'Kab. Rokan Hulu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.07',
+                'kota_nama' => 'Kab. Rokan Hilir',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.08',
+                'kota_nama' => 'Kab. Siak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.09',
+                'kota_nama' => 'Kab. Kuantan Singingi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.10',
+                'kota_nama' => 'Kab. Kepulauan Meranti',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.71',
+                'kota_nama' => 'Kota Pekanbaru',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '14',
+                'kota_kode' => '14.72',
+                'kota_nama' => 'Kota Dumai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.01',
+                'kota_nama' => 'Kab. Kerinci',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.02',
+                'kota_nama' => 'Kab. Merangin',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.03',
+                'kota_nama' => 'Kab. Sarolangun',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.04',
+                'kota_nama' => 'Kab. Batanghari',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.05',
+                'kota_nama' => 'Kab. Muaro Jambi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.06',
+                'kota_nama' => 'Kab. Tanjung Jabung Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.07',
+                'kota_nama' => 'Kab. Tanjung Jabung Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.08',
+                'kota_nama' => 'Kab. Bungo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.09',
+                'kota_nama' => 'Kab. Tebo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.71',
+                'kota_nama' => 'Kota Jambi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '15',
+                'kota_kode' => '15.72',
+                'kota_nama' => 'Kota Sungai Penuh',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.01',
+                'kota_nama' => 'Kab. Ogan Komering Ulu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.02',
+                'kota_nama' => 'Kab. Ogan Komering Ilir',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.03',
+                'kota_nama' => 'Kab. Muara Enim',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.04',
+                'kota_nama' => 'Kab. Lahat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.05',
+                'kota_nama' => 'Kab. Musi Rawas',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.06',
+                'kota_nama' => 'Kab. Musi Banyuasin',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.07',
+                'kota_nama' => 'Kab. Banyuasin',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.08',
+                'kota_nama' => 'Kab. Ogan Komering Ulu Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.09',
+                'kota_nama' => 'Kab. Ogan Komering Ulu Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.10',
+                'kota_nama' => 'Kab. Ogan Ilir',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.11',
+                'kota_nama' => 'Kab. Empat Lawang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.12',
+                'kota_nama' => 'Kab. Penukal Abab Lematang Ilir',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.13',
+                'kota_nama' => 'Kab. Musi Rawas Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.71',
+                'kota_nama' => 'Kota Palembang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.72',
+                'kota_nama' => 'Kota Pagar Alam',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.73',
+                'kota_nama' => 'Kota Lubuk Linggau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '16',
+                'kota_kode' => '16.74',
+                'kota_nama' => 'Kota Prabumulih',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.01',
+                'kota_nama' => 'Kab. Bengkulu Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.02',
+                'kota_nama' => 'Kab. Rejang Lebong',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.03',
+                'kota_nama' => 'Kab. Bengkulu Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.04',
+                'kota_nama' => 'Kab. Kaur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.05',
+                'kota_nama' => 'Kab. Seluma',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.06',
+                'kota_nama' => 'Kab. Muko Muko',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.07',
+                'kota_nama' => 'Kab. Lebong',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.08',
+                'kota_nama' => 'Kab. Kepahiang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.09',
+                'kota_nama' => 'Kab. Bengkulu Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '17',
+                'kota_kode' => '17.71',
+                'kota_nama' => 'Kota Bengkulu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.01',
+                'kota_nama' => 'Kab. Lampung Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.02',
+                'kota_nama' => 'Kab. Lampung Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.03',
+                'kota_nama' => 'Kab. Lampung Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.04',
+                'kota_nama' => 'Kab. Lampung Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.05',
+                'kota_nama' => 'Kab. Tulang Bawang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.06',
+                'kota_nama' => 'Kab. Tanggamus',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.07',
+                'kota_nama' => 'Kab. Lampung Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.08',
+                'kota_nama' => 'Kab. Way Kanan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.09',
+                'kota_nama' => 'Kab. Pesawaran',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.10',
+                'kota_nama' => 'Kab. Pringsewu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.11',
+                'kota_nama' => 'Kab. Mesuji',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.12',
+                'kota_nama' => 'Kab. Tulang Bawang Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.13',
+                'kota_nama' => 'Kab. Pesisir Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.71',
+                'kota_nama' => 'Kota Bandar Lampung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '18',
+                'kota_kode' => '18.72',
+                'kota_nama' => 'Kota Metro',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '19',
+                'kota_kode' => '19.01',
+                'kota_nama' => 'Kab. Bangka',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '19',
+                'kota_kode' => '19.02',
+                'kota_nama' => 'Kab. Belitung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '19',
+                'kota_kode' => '19.03',
+                'kota_nama' => 'Kab. Bangka Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '19',
+                'kota_kode' => '19.04',
+                'kota_nama' => 'Kab. Bangka Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '19',
+                'kota_kode' => '19.05',
+                'kota_nama' => 'Kab. Bangka Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '19',
+                'kota_kode' => '19.06',
+                'kota_nama' => 'Kab. Belitung Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '19',
+                'kota_kode' => '19.71',
+                'kota_nama' => 'Kota Pangkal Pinang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '21',
+                'kota_kode' => '21.01',
+                'kota_nama' => 'Kab. Bintan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '21',
+                'kota_kode' => '21.02',
+                'kota_nama' => 'Kab. Karimun',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '21',
+                'kota_kode' => '21.03',
+                'kota_nama' => 'Kab. Natuna',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '21',
+                'kota_kode' => '21.04',
+                'kota_nama' => 'Kab. Lingga',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '21',
+                'kota_kode' => '21.05',
+                'kota_nama' => 'Kab. Kepulauan Anambas',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '21',
+                'kota_kode' => '21.71',
+                'kota_nama' => 'Kota Batam',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '21',
+                'kota_kode' => '21.72',
+                'kota_nama' => 'Kota Tanjung Pinang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '31',
+                'kota_kode' => '31.01',
+                'kota_nama' => 'Kab. Adm. Kep. Seribu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '31',
+                'kota_kode' => '31.71',
+                'kota_nama' => 'Kota Adm. Jakarta Pusat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '31',
+                'kota_kode' => '31.72',
+                'kota_nama' => 'Kota Adm. Jakarta Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '31',
+                'kota_kode' => '31.73',
+                'kota_nama' => 'Kota Adm. Jakarta Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '31',
+                'kota_kode' => '31.74',
+                'kota_nama' => 'Kota Adm. Jakarta Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '31',
+                'kota_kode' => '31.75',
+                'kota_nama' => 'Kota Adm. Jakarta Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.01',
+                'kota_nama' => 'Kab. Bogor',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.02',
+                'kota_nama' => 'Kab. Sukabumi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.03',
+                'kota_nama' => 'Kab. Cianjur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.04',
+                'kota_nama' => 'Kab. Bandung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.05',
+                'kota_nama' => 'Kab. Garut',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.06',
+                'kota_nama' => 'Kab. Tasikmalaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.07',
+                'kota_nama' => 'Kab. Ciamis',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.08',
+                'kota_nama' => 'Kab. Kuningan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.09',
+                'kota_nama' => 'Kab. Cirebon',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.10',
+                'kota_nama' => 'Kab. Majalengka',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.11',
+                'kota_nama' => 'Kab. Sumedang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.12',
+                'kota_nama' => 'Kab. Indramayu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.13',
+                'kota_nama' => 'Kab. Subang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.14',
+                'kota_nama' => 'Kab. Purwakarta',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.15',
+                'kota_nama' => 'Kab. Karawang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.16',
+                'kota_nama' => 'Kab. Bekasi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.17',
+                'kota_nama' => 'Kab. Bandung Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.18',
+                'kota_nama' => 'Kab. Pangandaran',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.71',
+                'kota_nama' => 'Kota Bogor',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.72',
+                'kota_nama' => 'Kota Sukabumi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.73',
+                'kota_nama' => 'Kota Bandung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.74',
+                'kota_nama' => 'Kota Cirebon',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.75',
+                'kota_nama' => 'Kota Bekasi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.76',
+                'kota_nama' => 'Kota Depok',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.77',
+                'kota_nama' => 'Kota Cimahi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.78',
+                'kota_nama' => 'Kota Tasikmalaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '32',
+                'kota_kode' => '32.79',
+                'kota_nama' => 'Kota Banjar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.01',
+                'kota_nama' => 'Kab. Cilacap',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.02',
+                'kota_nama' => 'Kab. Banyumas',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.03',
+                'kota_nama' => 'Kab. Purbalingga',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.04',
+                'kota_nama' => 'Kab. Banjarnegara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.05',
+                'kota_nama' => 'Kab. Kebumen',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.06',
+                'kota_nama' => 'Kab. Purworejo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.07',
+                'kota_nama' => 'Kab. Wonosobo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.08',
+                'kota_nama' => 'Kab. Magelang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.09',
+                'kota_nama' => 'Kab. Boyolali',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.10',
+                'kota_nama' => 'Kab. Klaten',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.11',
+                'kota_nama' => 'Kab. Sukoharjo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.12',
+                'kota_nama' => 'Kab. Wonogiri',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.13',
+                'kota_nama' => 'Kab. Karanganyar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.14',
+                'kota_nama' => 'Kab. Sragen',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.15',
+                'kota_nama' => 'Kab. Grobogan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.16',
+                'kota_nama' => 'Kab. Blora',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.17',
+                'kota_nama' => 'Kab. Rembang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.18',
+                'kota_nama' => 'Kab. Pati',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.19',
+                'kota_nama' => 'Kab. Kudus',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.20',
+                'kota_nama' => 'Kab. Jepara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.21',
+                'kota_nama' => 'Kab. Demak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.22',
+                'kota_nama' => 'Kab. Semarang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.23',
+                'kota_nama' => 'Kab. Temanggung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.24',
+                'kota_nama' => 'Kab. Kendal',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.25',
+                'kota_nama' => 'Kab. Batang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.26',
+                'kota_nama' => 'Kab. Pekalongan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.27',
+                'kota_nama' => 'Kab. Pemalang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.28',
+                'kota_nama' => 'Kab. Tegal',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.29',
+                'kota_nama' => 'Kab. Brebes',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.71',
+                'kota_nama' => 'Kota Magelang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.72',
+                'kota_nama' => 'Kota Surakarta',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.73',
+                'kota_nama' => 'Kota Salatiga',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.74',
+                'kota_nama' => 'Kota Semarang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.75',
+                'kota_nama' => 'Kota Pekalongan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '33',
+                'kota_kode' => '33.76',
+                'kota_nama' => 'Kota Tegal',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '34',
+                'kota_kode' => '34.01',
+                'kota_nama' => 'Kab. Kulon Progo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '34',
+                'kota_kode' => '34.02',
+                'kota_nama' => 'Kab. Bantul',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '34',
+                'kota_kode' => '34.03',
+                'kota_nama' => 'Kab. Gunung Kidul',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '34',
+                'kota_kode' => '34.04',
+                'kota_nama' => 'Kab. Sleman',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '34',
+                'kota_kode' => '34.71',
+                'kota_nama' => 'Kota Yogyakarta',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.01',
+                'kota_nama' => 'Kab. Pacitan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.02',
+                'kota_nama' => 'Kab. Ponorogo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.03',
+                'kota_nama' => 'Kab. Trenggalek',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.04',
+                'kota_nama' => 'Kab. Tulungagung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.05',
+                'kota_nama' => 'Kab. Blitar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.06',
+                'kota_nama' => 'Kab. Kediri',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.07',
+                'kota_nama' => 'Kab. Malang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.08',
+                'kota_nama' => 'Kab. Lumajang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.09',
+                'kota_nama' => 'Kab. Jember',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.10',
+                'kota_nama' => 'Kab. Banyuwangi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.11',
+                'kota_nama' => 'Kab. Bondowoso',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.12',
+                'kota_nama' => 'Kab. Situbondo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.13',
+                'kota_nama' => 'Kab. Probolinggo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.14',
+                'kota_nama' => 'Kab. Pasuruan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.15',
+                'kota_nama' => 'Kab. Sidoarjo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.16',
+                'kota_nama' => 'Kab. Mojokerto',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.17',
+                'kota_nama' => 'Kab. Jombang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.18',
+                'kota_nama' => 'Kab. Nganjuk',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.19',
+                'kota_nama' => 'Kab. Madiun',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.20',
+                'kota_nama' => 'Kab. Magetan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.21',
+                'kota_nama' => 'Kab. Ngawi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.22',
+                'kota_nama' => 'Kab. Bojonegoro',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.23',
+                'kota_nama' => 'Kab. Tuban',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.24',
+                'kota_nama' => 'Kab. Lamongan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.25',
+                'kota_nama' => 'Kab. Gresik',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.26',
+                'kota_nama' => 'Kab. Bangkalan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.27',
+                'kota_nama' => 'Kab. Sampang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.28',
+                'kota_nama' => 'Kab. Pamekasan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.29',
+                'kota_nama' => 'Kab. Sumenep',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.71',
+                'kota_nama' => 'Kota Kediri',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.72',
+                'kota_nama' => 'Kota Blitar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.73',
+                'kota_nama' => 'Kota Malang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.74',
+                'kota_nama' => 'Kota Probolinggo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.75',
+                'kota_nama' => 'Kota Pasuruan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.76',
+                'kota_nama' => 'Kota Mojokerto',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.77',
+                'kota_nama' => 'Kota Madiun',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.78',
+                'kota_nama' => 'Kota Surabaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '35',
+                'kota_kode' => '35.79',
+                'kota_nama' => 'Kota Batu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.01',
+                'kota_nama' => 'Kab. Pandeglang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.02',
+                'kota_nama' => 'Kab. Lebak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.03',
+                'kota_nama' => 'Kab. Tangerang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.04',
+                'kota_nama' => 'Kab. Serang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.71',
+                'kota_nama' => 'Kota Tangerang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.72',
+                'kota_nama' => 'Kota Cilegon',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.73',
+                'kota_nama' => 'Kota Serang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '36',
+                'kota_kode' => '36.74',
+                'kota_nama' => 'Kota Tangerang Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.01',
+                'kota_nama' => 'Kab. Jembrana',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.02',
+                'kota_nama' => 'Kab. Tabanan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.03',
+                'kota_nama' => 'Kab. Badung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.04',
+                'kota_nama' => 'Kab. Gianyar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.05',
+                'kota_nama' => 'Kab. Klungkung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.06',
+                'kota_nama' => 'Kab. Bangli',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.07',
+                'kota_nama' => 'Kab. Karangasem',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.08',
+                'kota_nama' => 'Kab. Buleleng',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '51',
+                'kota_kode' => '51.71',
+                'kota_nama' => 'Kota Denpasar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.01',
+                'kota_nama' => 'Kab. Lombok Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.02',
+                'kota_nama' => 'Kab. Lombok Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.03',
+                'kota_nama' => 'Kab. Lombok Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.04',
+                'kota_nama' => 'Kab. Sumbawa',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.05',
+                'kota_nama' => 'Kab. Dompu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.06',
+                'kota_nama' => 'Kab. Bima',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.07',
+                'kota_nama' => 'Kab. Sumbawa Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.08',
+                'kota_nama' => 'Kab. Lombok Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.71',
+                'kota_nama' => 'Kota Mataram',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '52',
+                'kota_kode' => '52.72',
+                'kota_nama' => 'Kota Bima',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.01',
+                'kota_nama' => 'Kab. Kupang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.02',
+                'kota_nama' => 'Kab Timor Tengah Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.03',
+                'kota_nama' => 'Kab. Timor Tengah Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.04',
+                'kota_nama' => 'Kab. Belu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.05',
+                'kota_nama' => 'Kab. Alor',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.06',
+                'kota_nama' => 'Kab. Flores Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.07',
+                'kota_nama' => 'Kab. Sikka',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.08',
+                'kota_nama' => 'Kab. Ende',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.09',
+                'kota_nama' => 'Kab. Ngada',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.10',
+                'kota_nama' => 'Kab. Manggarai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.11',
+                'kota_nama' => 'Kab. Sumba Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.12',
+                'kota_nama' => 'Kab. Sumba Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.13',
+                'kota_nama' => 'Kab. Lembata',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.14',
+                'kota_nama' => 'Kab. Rote Ndao',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.15',
+                'kota_nama' => 'Kab. Manggarai Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.16',
+                'kota_nama' => 'Kab. Nagekeo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.17',
+                'kota_nama' => 'Kab. Sumba Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.18',
+                'kota_nama' => 'Kab. Sumba Barat Daya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.19',
+                'kota_nama' => 'Kab. Manggarai Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.20',
+                'kota_nama' => 'Kab. Sabu Raijua',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.21',
+                'kota_nama' => 'Kab. Malaka',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '53',
+                'kota_kode' => '53.71',
+                'kota_nama' => 'Kota Kupang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.01',
+                'kota_nama' => 'Kab. Sambas',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.02',
+                'kota_nama' => 'Kab. Mempawah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.03',
+                'kota_nama' => 'Kab. Sanggau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.04',
+                'kota_nama' => 'Kab. Ketapang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.05',
+                'kota_nama' => 'Kab. Sintang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.06',
+                'kota_nama' => 'Kab. Kapuas Hulu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.07',
+                'kota_nama' => 'Kab. Bengkayang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.08',
+                'kota_nama' => 'Kab. Landak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.09',
+                'kota_nama' => 'Kab. Sekadau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.10',
+                'kota_nama' => 'Kab. Melawi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.11',
+                'kota_nama' => 'Kab. Kayong Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.12',
+                'kota_nama' => 'Kab. Kubu Raya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.71',
+                'kota_nama' => 'Kota Pontianak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '61',
+                'kota_kode' => '61.72',
+                'kota_nama' => 'Kota Singkawang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.01',
+                'kota_nama' => 'Kab. Kotawaringin Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.02',
+                'kota_nama' => 'Kab. Kotawaringin Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.03',
+                'kota_nama' => 'Kab. Kapuas',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.04',
+                'kota_nama' => 'Kab. Barito Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.05',
+                'kota_nama' => 'Kab. Barito Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.06',
+                'kota_nama' => 'Kab. Katingan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.07',
+                'kota_nama' => 'Kab. Seruyan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.08',
+                'kota_nama' => 'Kab. Sukamara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.09',
+                'kota_nama' => 'Kab. Lamandau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.10',
+                'kota_nama' => 'Kab. Gunung Mas',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.11',
+                'kota_nama' => 'Kab. Pulang Pisau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.12',
+                'kota_nama' => 'Kab. Murung Raya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.13',
+                'kota_nama' => 'Kab. Barito Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '62',
+                'kota_kode' => '62.71',
+                'kota_nama' => 'Kota Palangkaraya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.01',
+                'kota_nama' => 'Kab. Tanah Laut',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.02',
+                'kota_nama' => 'Kab. Kotabaru',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.03',
+                'kota_nama' => 'Kab. Banjar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.04',
+                'kota_nama' => 'Kab. Barito Kuala',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.05',
+                'kota_nama' => 'Kab. Tapin',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.06',
+                'kota_nama' => 'Kab. Hulu Sungai Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.07',
+                'kota_nama' => 'Kab. Hulu Sungai Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.08',
+                'kota_nama' => 'Kab. Hulu Sungai Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.09',
+                'kota_nama' => 'Kab. Tabalong',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.10',
+                'kota_nama' => 'Kab. Tanah Bumbu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.11',
+                'kota_nama' => 'Kab. Balangan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.71',
+                'kota_nama' => 'Kota Banjarmasin',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '63',
+                'kota_kode' => '63.72',
+                'kota_nama' => 'Kota Banjarbaru',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.01',
+                'kota_nama' => 'Kab. Paser',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.02',
+                'kota_nama' => 'Kab. Kutai Kartanegara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.03',
+                'kota_nama' => 'Kab. Berau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.07',
+                'kota_nama' => 'Kab. Kutai Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.08',
+                'kota_nama' => 'Kab. Kutai Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.09',
+                'kota_nama' => 'Kab. Penajam Paser Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.11',
+                'kota_nama' => 'Kab. Mahakam Ulu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.71',
+                'kota_nama' => 'Kota Balikpapan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.72',
+                'kota_nama' => 'Kota Samarinda',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '64',
+                'kota_kode' => '64.74',
+                'kota_nama' => 'Kota Bontang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '65',
+                'kota_kode' => '65.01',
+                'kota_nama' => 'Kab. Bulungan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '65',
+                'kota_kode' => '65.02',
+                'kota_nama' => 'Kab. Malinau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '65',
+                'kota_kode' => '65.03',
+                'kota_nama' => 'Kab. Nunukan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '65',
+                'kota_kode' => '65.04',
+                'kota_nama' => 'Kab. Tana Tidung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '65',
+                'kota_kode' => '65.71',
+                'kota_nama' => 'Kota Tarakan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.01',
+                'kota_nama' => 'Kab. Bolaang Mongondow',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.02',
+                'kota_nama' => 'Kab. Minahasa',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.03',
+                'kota_nama' => 'Kab. Kepulauan Sangihe',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.04',
+                'kota_nama' => 'Kab. Kepulauan Talaud',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.05',
+                'kota_nama' => 'Kab. Minahasa Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.06',
+                'kota_nama' => 'Kab. Minahasa Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.07',
+                'kota_nama' => 'Kab. Minahasa Tenggara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.08',
+                'kota_nama' => 'Kab. Bolaang Mongondow Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.09',
+                'kota_nama' => 'Kab. Kep. Siau Tagulandang Biaro',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.10',
+                'kota_nama' => 'Kab. Bolaang Mongondow Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.11',
+                'kota_nama' => 'Kab. Bolaang Mongondow Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.71',
+                'kota_nama' => 'Kota Manado',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.72',
+                'kota_nama' => 'Kota Bitung',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.73',
+                'kota_nama' => 'Kota Tomohon',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '71',
+                'kota_kode' => '71.74',
+                'kota_nama' => 'Kota Kotamobagu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.01',
+                'kota_nama' => 'Kab. Banggai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.02',
+                'kota_nama' => 'Kab. Poso',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.03',
+                'kota_nama' => 'Kab. Donggala',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.04',
+                'kota_nama' => 'Kab. Toli Toli',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.05',
+                'kota_nama' => 'Kab. Buol',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.06',
+                'kota_nama' => 'Kab. Morowali',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.07',
+                'kota_nama' => 'Kab. Banggai Kepulauan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.08',
+                'kota_nama' => 'Kab. Parigi Moutong',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.09',
+                'kota_nama' => 'Kab. Tojo Una Una',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.10',
+                'kota_nama' => 'Kab. Sigi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.11',
+                'kota_nama' => 'Kab. Banggai Laut',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.12',
+                'kota_nama' => 'Kab. Morowali Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '72',
+                'kota_kode' => '72.71',
+                'kota_nama' => 'Kota Palu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.01',
+                'kota_nama' => 'Kab. Kepulauan Selayar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.02',
+                'kota_nama' => 'Kab. Bulukumba',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.03',
+                'kota_nama' => 'Kab. Bantaeng',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.04',
+                'kota_nama' => 'Kab. Jeneponto',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.05',
+                'kota_nama' => 'Kab. Takalar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.06',
+                'kota_nama' => 'Kab. Gowa',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.07',
+                'kota_nama' => 'Kab. Sinjai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.08',
+                'kota_nama' => 'Kab. Bone',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.09',
+                'kota_nama' => 'Kab. Maros',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.10',
+                'kota_nama' => 'Kab. Pangkajene Kepulauan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.11',
+                'kota_nama' => 'Kab. Barru',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.12',
+                'kota_nama' => 'Kab. Soppeng',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.13',
+                'kota_nama' => 'Kab. Wajo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.14',
+                'kota_nama' => 'Kab. Sidenreng Rappang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.15',
+                'kota_nama' => 'Kab. Pinrang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.16',
+                'kota_nama' => 'Kab. Enrekang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.17',
+                'kota_nama' => 'Kab. Luwu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.18',
+                'kota_nama' => 'Kab. Tana Toraja',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.22',
+                'kota_nama' => 'Kab. Luwu Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.24',
+                'kota_nama' => 'Kab. Luwu Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.26',
+                'kota_nama' => 'Kab. Toraja Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.71',
+                'kota_nama' => 'Kota Makassar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.72',
+                'kota_nama' => 'Kota Pare Pare',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '73',
+                'kota_kode' => '73.73',
+                'kota_nama' => 'Kota Palopo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.01',
+                'kota_nama' => 'Kab. Kolaka',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.02',
+                'kota_nama' => 'Kab. Konawe',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.03',
+                'kota_nama' => 'Kab. Muna',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.04',
+                'kota_nama' => 'Kab. Buton',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.05',
+                'kota_nama' => 'Kab. Konawe Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.06',
+                'kota_nama' => 'Kab. Bombana',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.07',
+                'kota_nama' => 'Kab. Wakatobi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.08',
+                'kota_nama' => 'Kab. Kolaka Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.09',
+                'kota_nama' => 'Kab. Konawe Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.10',
+                'kota_nama' => 'Kab. Buton Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.11',
+                'kota_nama' => 'Kab. Kolaka Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.12',
+                'kota_nama' => 'Kab. Konawe Kepulauan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.13',
+                'kota_nama' => 'Kab. Muna Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.14',
+                'kota_nama' => 'Kab. Buton Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.15',
+                'kota_nama' => 'Kab. Buton Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.71',
+                'kota_nama' => 'Kota Kendari',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '74',
+                'kota_kode' => '74.72',
+                'kota_nama' => 'Kota Bau Bau',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '75',
+                'kota_kode' => '75.01',
+                'kota_nama' => 'Kab. Gorontalo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '75',
+                'kota_kode' => '75.02',
+                'kota_nama' => 'Kab. Boalemo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '75',
+                'kota_kode' => '75.03',
+                'kota_nama' => 'Kab. Bone Bolango',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '75',
+                'kota_kode' => '75.04',
+                'kota_nama' => 'Kab. Pahuwato',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '75',
+                'kota_kode' => '75.05',
+                'kota_nama' => 'Kab. Gorontalo Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '75',
+                'kota_kode' => '75.71',
+                'kota_nama' => 'Kota Gorontalo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '76',
+                'kota_kode' => '76.01',
+                'kota_nama' => 'Kab. Mamuju Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '76',
+                'kota_kode' => '76.02',
+                'kota_nama' => 'Kab. Mamuju',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '76',
+                'kota_kode' => '76.03',
+                'kota_nama' => 'Kab. Mamasa',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '76',
+                'kota_kode' => '76.04',
+                'kota_nama' => 'Kab. Polewali Mandar',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '76',
+                'kota_kode' => '76.05',
+                'kota_nama' => 'Kab. Majene',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '76',
+                'kota_kode' => '76.06',
+                'kota_nama' => 'Kab. Mamuju Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.01',
+                'kota_nama' => 'Kab. Maluku Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.02',
+                'kota_nama' => 'Kab. Maluku Tenggara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.03',
+                'kota_nama' => 'Kab Maluku Tenggara Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.04',
+                'kota_nama' => 'Kab. Buru',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.05',
+                'kota_nama' => 'Kab. Seram Bagian Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.06',
+                'kota_nama' => 'Kab. Seram Bagian Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.07',
+                'kota_nama' => 'Kab. Kepulauan Aru',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.08',
+                'kota_nama' => 'Kab. Maluku Barat Daya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.09',
+                'kota_nama' => 'Kab. Buru Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.71',
+                'kota_nama' => 'Kota Ambon',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '81',
+                'kota_kode' => '81.72',
+                'kota_nama' => 'Kota Tual',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.01',
+                'kota_nama' => 'Kab. Halmahera Barat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.02',
+                'kota_nama' => 'Kab. Halmahera Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.03',
+                'kota_nama' => 'Kab. Halmahera Utara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.04',
+                'kota_nama' => 'Kab. Halmahera Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.05',
+                'kota_nama' => 'Kab. Kepulauan Sula',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.06',
+                'kota_nama' => 'Kab. Halmahera Timur',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.07',
+                'kota_nama' => 'Kab. Pulau Morotai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.08',
+                'kota_nama' => 'Kab. Pulau Taliabu',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.71',
+                'kota_nama' => 'Kota Ternate',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '82',
+                'kota_kode' => '82.72',
+                'kota_nama' => 'Kota Tidore Kepulauan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.01',
+                'kota_nama' => 'Kab. Merauke',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.02',
+                'kota_nama' => 'Kab. Jayawijaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.03',
+                'kota_nama' => 'Kab. Jayapura',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.04',
+                'kota_nama' => 'Kab. Nabire',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.05',
+                'kota_nama' => 'Kab. Kepulauan Yapen',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.06',
+                'kota_nama' => 'Kab. Biak Numfor',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.07',
+                'kota_nama' => 'Kab. Puncak Jaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.08',
+                'kota_nama' => 'Kab. Paniai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.09',
+                'kota_nama' => 'Kab. Mimika',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.10',
+                'kota_nama' => 'Kab. Sarmi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.11',
+                'kota_nama' => 'Kab. Keerom',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.12',
+                'kota_nama' => 'Kab Pegunungan Bintang',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.13',
+                'kota_nama' => 'Kab. Yahukimo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.14',
+                'kota_nama' => 'Kab. Tolikara',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.15',
+                'kota_nama' => 'Kab. Waropen',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.16',
+                'kota_nama' => 'Kab. Boven Digoel',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.17',
+                'kota_nama' => 'Kab. Mappi',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.18',
+                'kota_nama' => 'Kab. Asmat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.19',
+                'kota_nama' => 'Kab. Supiori',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.20',
+                'kota_nama' => 'Kab. Mamberamo Raya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.21',
+                'kota_nama' => 'Kab. Mamberamo Tengah',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.22',
+                'kota_nama' => 'Kab. Yalimo',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.23',
+                'kota_nama' => 'Kab. Lanny Jaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.24',
+                'kota_nama' => 'Kab. Nduga',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.25',
+                'kota_nama' => 'Kab. Puncak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.26',
+                'kota_nama' => 'Kab. Dogiyai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.27',
+                'kota_nama' => 'Kab. Intan Jaya',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.28',
+                'kota_nama' => 'Kab. Deiyai',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '91',
+                'kota_kode' => '91.71',
+                'kota_nama' => 'Kota Jayapura',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.01',
+                'kota_nama' => 'Kab. Sorong',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.02',
+                'kota_nama' => 'Kab. Manokwari',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.03',
+                'kota_nama' => 'Kab. Fak Fak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.04',
+                'kota_nama' => 'Kab. Sorong Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.05',
+                'kota_nama' => 'Kab. Raja Ampat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.06',
+                'kota_nama' => 'Kab. Teluk Bintuni',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.07',
+                'kota_nama' => 'Kab. Teluk Wondama',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.08',
+                'kota_nama' => 'Kab. Kaimana',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.09',
+                'kota_nama' => 'Kab. Tambrauw',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.10',
+                'kota_nama' => 'Kab. Maybrat',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.11',
+                'kota_nama' => 'Kab. Manokwari Selatan',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.12',
+                'kota_nama' => 'Kab. Pegunungan Arfak',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ],
+            [
+                'kota_provinsi_kode' => '92',
+                'kota_kode' => '92.71',
+                'kota_nama' => 'Kota Sorong',
+                'kota_create_by' => 1,
+                'kota_create_date' => '2017-08-08 12:42:18',
+                'kota_status' => 1,
+                'kota_log_id' => ''
+            ]
+        );
+    }
+}

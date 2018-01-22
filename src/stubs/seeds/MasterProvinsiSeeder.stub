@@ -1,0 +1,289 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class MasterProvinsiSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('master_provinsi')->insert(
+            [
+                'provinsi_kode' => '11',
+                'provinsi_nama' => 'Aceh',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '12',
+                'provinsi_nama' => 'Sumatera Utara',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '13',
+                'provinsi_nama' => 'Sumatera Barat',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '14',
+                'provinsi_nama' => 'Riau',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '15',
+                'provinsi_nama' => 'Jambi',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '16',
+                'provinsi_nama' => 'Sumatera Selatan',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '17',
+                'provinsi_nama' => 'Bengkulu',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '18',
+                'provinsi_nama' => 'Lampung',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '19',
+                'provinsi_nama' => 'Kepulauan Bangka Belitung',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '21',
+                'provinsi_nama' => 'Kepulauan Riau',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '31',
+                'provinsi_nama' => 'DKI Jakarta',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '32',
+                'provinsi_nama' => 'Jawa Barat',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '33',
+                'provinsi_nama' => 'Jawa Tengah',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '34',
+                'provinsi_nama' => 'DI Yogyakarta',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '35',
+                'provinsi_nama' => 'Jawa Timur',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '36',
+                'provinsi_nama' => 'Banten',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '51',
+                'provinsi_nama' => 'Bali',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '52',
+                'provinsi_nama' => 'Nusa Tenggara Barat',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '53',
+                'provinsi_nama' => 'Nusa Tenggara Timur',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '61',
+                'provinsi_nama' => 'Kalimantan Barat',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '62',
+                'provinsi_nama' => 'Kalimantan Tengah',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '63',
+                'provinsi_nama' => 'Kalimantan Selatan',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '64',
+                'provinsi_nama' => 'Kalimantan Timur',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '65',
+                'provinsi_nama' => 'Kalimantan Utara',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '71',
+                'provinsi_nama' => 'Sulawesi Utara',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '72',
+                'provinsi_nama' => 'Sulawesi Tengah',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '73',
+                'provinsi_nama' => 'Sulawesi Selatan',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '74',
+                'provinsi_nama' => 'Sulawesi Tenggara',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '75',
+                'provinsi_nama' => 'Gorontalo',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '76',
+                'provinsi_nama' => 'Sulawesi Barat',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '81',
+                'provinsi_nama' => 'Maluku',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '82',
+                'provinsi_nama' => 'Maluku Utara',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '92',
+                'provinsi_nama' => 'Papua',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ],
+            [
+                'provinsi_kode' => '91',
+                'provinsi_nama' => 'Papua Barat',
+                'provinsi_create_by' => 1,
+                'provinsi_create_date' => '2017-08-08 12:38:39',
+                'provinsi_status' => '1',
+                'provinsi_log_id' => ''
+            ]
+        );
+    }
+}
